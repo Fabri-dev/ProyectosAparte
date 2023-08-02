@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1690828754 source:g:\facu\c\proyectosaparte\proyecto 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1690951379 g:\facu\c\proyectosaparte\proyecto 4\funciones.h
+
+1690951448 source:g:\facu\c\proyectosaparte\proyecto 4\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+

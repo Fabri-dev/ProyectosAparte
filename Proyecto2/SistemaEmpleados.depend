@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1689636831 source:g:\facu\c\proyectosaparte\proyecto2\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"funciones.h"
+
+1688097401 g:\facu\c\proyectosaparte\proyecto2\menu.h
+
+1688252603 g:\facu\c\proyectosaparte\proyecto2\funciones.h
+
+1687915942 source:g:\facu\c\proyectosaparte\proyecto2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"funciones.h"
+
+1688252154 source:g:\facu\c\proyectosaparte\proyecto2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+

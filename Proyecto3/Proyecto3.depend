@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1690656640 source:g:\facu\c\proyectosaparte\proyecto3\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+	"verificaciones.h"
+
+1690656640 g:\facu\c\proyectosaparte\proyecto3\funciones.h
+	"menu.h"
+
+1690652682 g:\facu\c\proyectosaparte\proyecto3\menu.h
+
+1690655826 g:\facu\c\proyectosaparte\proyecto3\verificaciones.h
+	"menu.h"
+
+1690655834 source:g:\facu\c\proyectosaparte\proyecto3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+	"verificaciones.h"
+
+1690654049 source:g:\facu\c\proyectosaparte\proyecto3\verificaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+	"menu.h"
+	"verificaciones.h"
+
+1690656678 source:g:\facu\c\proyectosaparte\proyecto3\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+	"verificaciones.h"
+
