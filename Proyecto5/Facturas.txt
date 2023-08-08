@@ -1,0 +1,9 @@
+-----------------VENTA: 0-------------------
+Nombre: Fabrizio
+Apellido: Golisciano
+DNI: 46738548
+Email: fabri.vogol@gmail.com
+Monto: 5300.23
+Forma de Pago: Transferencia
+Mes: 4
+------------------------------------------
