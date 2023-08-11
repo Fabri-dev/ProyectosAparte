@@ -1,9 +1,27 @@
 -----------------VENTA: 0-------------------
-Nombre: Fabrizio
-Apellido: Golisciano
-DNI: 46738548
-Email: fabri.vogol@gmail.com
-Monto: 5300.23
+Nombre: carlos
+Apellido: teves
+DNI: 324443334
+Email: carlos@gmail.com
+Monto: 3240.00
+Forma de Pago: Efectivo
+Mes: 2
+--------------------------------------------
+-----------------VENTA: 1-------------------
+Nombre: carlosa
+Apellido: bala
+DNI: 23334345
+Email: carlso@hotm
+Monto: 23344.00
 Forma de Pago: Transferencia
 Mes: 4
-------------------------------------------
+--------------------------------------------
+-----------------VENTA: 2-------------------
+Nombre: Juan
+Apellido: Carlos
+DNI: 453322112
+Email: @asdasd
+Monto: 3434345.00
+Forma de Pago: Transferencia
+Mes: 2
+--------------------------------------------

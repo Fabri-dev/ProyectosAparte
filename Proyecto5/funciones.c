@@ -9,6 +9,7 @@ void menuPrincipal(char archivoFacturas[])
     int opsw=0;
     puts("-------------------Bienvenido-----------------");
     puts("1. Crear una factura");
+    puts("2. ");
     puts("-----------------------------------------------");
     printf("Que desea hacer?: ");
     scanf("%i",&opsw);
@@ -94,30 +95,29 @@ stFactura crearFactura(char archivoFacturas[])
 
 int buscarUltimoID(char archivoFacturas[])
 {
-    int id=0;
-
+    int id=0,ultimoNumero=-1;
+    char linea[100];
     FILE*buffer=fopen(archivoFacturas,"r");
 
     if(buffer != NULL)
     {
-        fseek(buffer,sizeof(stFactura),SEEK_END);
-        fscanf(buffer,"-----------------VENTA: %i",&id);
-        if(id == NULL)
-        {
-            id=0;
+
+        while (fgets(linea, sizeof(linea), buffer)) {
+        if (sscanf(linea, "-----------------VENTA: %d", &id) == 1) {
+            ultimoNumero = id;
         }
-        else
-        {
-            id+=1;
-        }
+    }
+
+
+        ultimoNumero+=1;
         fclose(buffer);
     }
     else
     {
-        puts("Error con el archivo");
+        ultimoNumero=0;
     }
 
-    return id;
+    return ultimoNumero;
 }
 void escribirFacturaArchivo(char archivoFacturas[], stFactura dato)
 {
@@ -141,7 +141,7 @@ void escribirFacturaArchivo(char archivoFacturas[], stFactura dato)
         }
         fprintf(buffer,"Mes: %i\n",dato.mes);
 
-        fputs("------------------------------------------\n",buffer);
+        fputs("--------------------------------------------\n",buffer);
 
 
         fclose(buffer);

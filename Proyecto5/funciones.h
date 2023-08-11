@@ -18,6 +18,7 @@ stFactura crearFactura(char archivoFacturas[]);
 void menuPrincipal(char archivoFacturas[]);
 void escribirFacturaArchivo(char archivoFacturas[], stFactura dato);
 void cargarFacturaArchivo(char archivoFacturas[]);
+int buscarUltimoID(char archivoFacturas[]);
 
 
 #endif // FUNCIONES_H_INCLUDED

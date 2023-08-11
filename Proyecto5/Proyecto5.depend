@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1691524988 source:g:\facu\c\proyectosaparte\proyecto5\funciones.c
+1691700186 source:g:\facu\c\proyectosaparte\proyecto5\funciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"funciones.h"
 	"verificaciones.h"
 
-1691522102 g:\facu\c\proyectosaparte\proyecto5\funciones.h
+1691526948 g:\facu\c\proyectosaparte\proyecto5\funciones.h
 
-1691521351 source:g:\facu\c\proyectosaparte\proyecto5\main.c
+1691525297 source:g:\facu\c\proyectosaparte\proyecto5\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
